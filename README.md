@@ -1,2 +1,0 @@
-# bertoti
-atividade eng soft
