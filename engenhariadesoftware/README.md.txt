@@ -16,4 +16,4 @@ Java é robusto, seguro e estruturado, ótimo para grandes sistemas onde manter 
 
 - Java e C
 
-Java: roda na JVM, o que facilita portabilidade entre sistemas operacionais, mas pode não ser tão otimizado quanto linguagens que compilam para código nativo, enquanto C pode ser altamente otimizado para uma plataforma específica, mas exige trabalho extra para ser portátil.
+Java roda na JVM, o que facilita portabilidade entre sistemas operacionais, mas pode não ser tão otimizado quanto linguagens que compilam para código nativo, enquanto C pode ser altamente otimizado para uma plataforma específica, mas exige trabalho extra para ser portátil.
