@@ -6,4 +6,14 @@
 Organização é a chave.
 
 
-3 - 
+3 -  TRADEOFFS:
+
+- C++ e Python:
+O C++ nos proporciona muito desempenho(velocidade), muito utilizado em aplicações embarcadas, enquanto Python, por ser mais distante do Hardware não tem tanto desempenho comparado a C++, porém é uma linguagem muito flexivel e de pouca complexidade, tornando o entendimento e o desenvolvimento do software no geral muito mais fácil.
+
+- Java e Javascript
+Java é robusto, seguro e estruturado, ótimo para grandes sistemas onde manter código legível e seguro a longo prazo é prioridade(como por exemplo, bancos.) O Javascript é uma linguagem com uma tipagem bem dinâmica com seu código sendo curto e rápido para escrever(Java é mais verboso.)
+
+- Java e C
+
+Java: roda na JVM, o que facilita portabilidade entre sistemas operacionais, mas pode não ser tão otimizado quanto linguagens que compilam para código nativo, enquanto C pode ser altamente otimizado para uma plataforma específica, mas exige trabalho extra para ser portátil.
