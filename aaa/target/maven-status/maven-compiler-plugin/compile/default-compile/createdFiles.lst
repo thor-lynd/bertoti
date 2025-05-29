@@ -1,0 +1,8 @@
+org\example\OllamaService.class
+org\example\PerguntaResource$DadosPergunta.class
+org\example\ExampleResource.class
+org\example\PerguntaRequest.class
+org\example\IaResource.class
+org\example\RespostaResponse.class
+org\example\PerguntaResource.class
+org\example\RespostaResource.class
