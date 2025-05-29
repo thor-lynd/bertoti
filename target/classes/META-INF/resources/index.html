@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Fale com a IA</title>
+</head>
+<body>
+<h1>Converse com a IA</h1>
+<form id="form">
+    <label for="pergunta">Digite sua pergunta:</label><br>
+    <input type="text" id="pergunta" name="pergunta" required><br><br>
+    <button type="submit">Enviar</button>
+</form>
+<h2>Resposta:</h2>
+<pre id="resposta"></pre>
+
+<script>
+    const form = document.getElementById('form');
+    const respostaEl = document.getElementById('resposta');
+
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const pergunta = document.getElementById('pergunta').value;
+
+        const res = await fetch('/pergunta', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ pergunta })
+        });
+
+        const resposta = await res.text();
+        respostaEl.textContent = resposta;
+    });
+</script>
+</body>
+</html>
