@@ -1,11 +1,9 @@
 public class Main{
 
 
-    public static void Main(String[] args){
+    public static void main(String[] args) {
+        Cliente cliente1 = new Cliente("Thor", 1500);
 
-
-
-        System.out.println("test")
-
+        cliente1.Emprestar();
     }
 }
