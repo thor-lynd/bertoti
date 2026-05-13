@@ -75,7 +75,7 @@ Documentação Técnica com Swagger: Estruturação da documentação OpenAPI, f
 
 - Controle de Versão: Gestão de código em equipe utilizando Git, com foco em boas práticas de commit e organização de branches.
 
-## 4.0 Soft Skills Desenvolvidas
+## 4.1 Soft Skills Desenvolvidas
 - Metodologia Ágil (Scrum): Vivência prática em ambiente colaborativo, participando de ritos de planejamento e entregas incrementais.
 
 - Pensamento Analítico: Tradução de desafios de negócio em requisitos técnicos e modelagem de dados estruturada.
